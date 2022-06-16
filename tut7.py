@@ -33,3 +33,17 @@ Type casting functions:
 
 print(10 * "hello faisal\n")
 # hello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisal
+
+# Taking input from user
+
+print("enter the number:")
+userInput = input()
+
+print(userInput) #10
+print(type(userInput)) #<class 'str'>
+#print(userInput * userInput)  error
+
+# type case userInput
+userInput = int(userInput)
+print(type(userInput)) #<class 'int'>
+print(userInput * userInput) # 100
