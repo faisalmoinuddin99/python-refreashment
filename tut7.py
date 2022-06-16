@@ -14,4 +14,22 @@ num3 = num1 + num2
 print("Addition of two number:",num3)
 print(type(num1)) #<class 'int'>
 print(type(num2)) #<class 'float'>
-print(type(num3))#<class 'float'>
+print(type(num3))#<class 'float'> 
+
+# TypeCasting
+
+var1 = "54"
+var2 = "10"
+
+print(var1 + var2) # 5410
+print(int(var1) + int(var2)) # 64
+
+"""
+Type casting functions:
+1. int()
+2. str()
+3. float()
+"""
+
+print(10 * "hello faisal\n")
+# hello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisalhello faisal
