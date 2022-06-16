@@ -19,3 +19,5 @@ After that escape sequence will also be consider as normal characters.
 Let's take an example.
 """
 print(r"Hello\nWorld")
+
+# output: Hello\nWorld
