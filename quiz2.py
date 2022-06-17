@@ -8,7 +8,8 @@ oxfordDictionary =  {
 }
 
 searchWord = input("Enter a word:")
-print(oxfordDictionary[searchWord])
+normalizedWords = searchWord.lower()
+print(oxfordDictionary[normalizedWords])
 
 # output
 """
