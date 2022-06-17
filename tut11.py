@@ -1,6 +1,5 @@
 # Set in Python, it only hold unique elements
 
-from ctypes import Union
 
 
 s = set()
