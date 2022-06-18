@@ -30,3 +30,30 @@ Before calling rohan() 20
 after calling rohan() 20
 """
 print(x) # 88
+
+
+iAmGlobalToFoo = 500
+def foo():
+    iAmGlobalToFoo = 100
+    def fizz():
+        global iAmGlobalToFoo 
+        iAmGlobalToFoo = 200
+        iAmGlobalToFoo += 1
+        print("Inside Fizz:", iAmGlobalToFoo)
+    print("Before calling fizz():", iAmGlobalToFoo)
+    fizz()
+    print("After calling fizz():", iAmGlobalToFoo)
+
+foo()
+print(iAmGlobalToFoo)
+
+
+length = 20
+def rectangle():
+    global length
+    length = length + 40
+    print(length)
+
+print(length)
+rectangle()
+print(length)
