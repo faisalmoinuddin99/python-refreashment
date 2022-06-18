@@ -14,7 +14,7 @@ func1()
 print(l)
 
 
-
+x = 50
 def faisal():
     x = 20
     def rohan():
